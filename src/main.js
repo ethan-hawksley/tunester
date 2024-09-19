@@ -13,6 +13,7 @@ window.addEventListener("DOMContentLoaded", () => {
     greetMsgEl = document.querySelector("#greet-msg");
     document.querySelector("#greet-form").addEventListener("submit", (e) => {
         e.preventDefault();
-        greet();
+        greet().then(() => {
+        });
     });
 });
