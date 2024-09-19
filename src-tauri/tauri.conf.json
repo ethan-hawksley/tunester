@@ -37,6 +37,24 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ]
+    },
+    "cli": {
+      "description": "",
+      "longDescription": "",
+      "beforeHelp": "",
+      "afterHelp": "",
+      "args": [
+        {
+          "name": "playlist_id",
+          "index": 1,
+          "takes-value": true,
+          "required": false
+        }
+      ],
+      "subcommands": {
+        "subcommand-name": {
+        }
+      }
     }
   }
 }
